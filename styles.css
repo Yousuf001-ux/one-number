@@ -500,7 +500,7 @@ footer .links > p {
     }
 
     .benefits {
-        row-gap: 24px;
+        row-gap: 48px;
         padding: 40px 50px;
     }
     
@@ -515,7 +515,7 @@ footer .links > p {
 
     .benefits > div {
         grid-column: span 12;
-        padding: 16px 22px;
+        padding: 24px 24px;
         border-radius: 3px;
     }
 
