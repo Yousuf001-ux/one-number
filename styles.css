@@ -1,0 +1,766 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000211;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header {
+    height: 90vh;
+}
+
+#nav-container {
+    background-color: white;
+    padding: 16px 0px;
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 16px;
+}
+
+header nav .menu {
+    display: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #343434;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.button.nav {
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    background: #FD8500;
+    width: 100%;
+    width: fit-content;
+    border-radius: 6px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav ul {
+    display: flex;
+    align-self: center;
+}
+
+nav ul li {
+    margin-right: 76px;
+}
+
+header div h1 {
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+header div p {
+    color: #E3DFDF;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-bottom: 3.25rem;
+}
+
+header div button {
+    border: none;
+    padding: 17px 72px;
+    background-color: #FD8500;
+    color: white;
+    border-radius: 4px;
+    width: fit-content;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 409px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main > #benefits-container {
+    background-color: #0F101D;
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 24px;
+    row-gap: 124px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+
+.benefits h2 {
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    grid-column:  3 / span 8;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.benefits div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 24px;
+    background-color: #1A2535;
+    grid-column: span 4;
+    border-radius: 6px;
+}
+.benefits div h3 {
+    font-family: "Syne", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.benefits div p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #E3DFDF;
+}
+
+.benefits img {
+    width: 100px;
+    height: 100px;
+}
+
+#features-container {
+    max-width: 1080px;
+    margin: 100px auto;
+}
+
+#features-container > div > div > img {
+    width: 407px;
+    height: 844px;
+}
+
+#features-container > div {
+    display: flex;
+    align-items: center;
+}
+
+#features-container h2 {
+    font-family: "Syne", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 32px;
+}
+
+#features-container > div > div > div > p {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.dropdown {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.features-card.one {
+    background-color: #0F101D;
+    padding: 64px 32px;
+    margin-left: 72px;
+    border-radius: 8px;
+}
+
+.features-card.two {
+    background-color: #0F101D;
+    padding: 64px 32px;
+    border-radius: 8px;
+    margin-right: 72px;
+}
+
+.features-card.two h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.features-card.two p {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 147%;
+    color: #c9c6c6;
+    margin-top: 12px;
+}
+
+.f2 {
+    margin-top: 28px;
+}
+
+.txt-btn {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.txt-btn > a {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #1388F8;
+    text-decoration: none;
+}
+
+#features-container > div:nth-child(1) {
+    margin-bottom: 124px;
+}
+
+#setup-container {
+    max-width: 1080px;
+    margin: 164px auto;
+}
+
+#setup-container h2 {
+    font-family: "Syne", sans-serif;
+    font-size: 2.625rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 118px;
+}
+
+.card {
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-right: 49px;
+    padding-bottom: 90px;
+    background-color: #0F101D;
+    border-radius: 6px;
+}
+
+.setup-1 {
+    display: flex;
+    align-items: center;
+}
+
+#setup-container h4 {
+    font-family: "Syne", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.card > h5 {
+    font-family: "Syne", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.card > p {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+}
+
+.setup-1 > div > img {
+    margin: 0 80px;
+}
+
+.card.one span {
+    color: #60A5FA;
+}
+
+#setup-container > div > div > div > img {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 524px;
+}
+
+.setup-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.setup-2 > div > img {
+    margin: 0 80px;
+}
+
+#setup-container button {
+    text-decoration: none;
+    color: white;
+    padding: 17px 72px;
+    background: #FD8500;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+#setup-container .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #1C1F33;
+}
+
+footer #footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 64px 0;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+footer .logo-l {
+    grid-column: span 12;
+    display: flex;
+    justify-content: center;
+}
+
+footer .quick-links {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    margin-top: 80px;
+}
+
+.quick-links > div:nth-child(1) {
+    grid-column: 3 / span 2;
+}
+
+.quick-links > div:nth-child(2) {
+    grid-column: 6 / span 2;
+}
+
+.quick-links > div:nth-child(3) {
+    grid-column: 9 / span 2;
+}
+
+.hr {
+    grid-column: span 12;
+    margin-top: 72px;
+}
+
+.contact {
+    grid-column: span 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+footer .links {
+    grid-column: span 12;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+footer .copyright {
+    grid-column: span 12;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+footer h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.quick-links > div > p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #7E8DA4;
+    margin-bottom: 16px;
+}
+
+.contact h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: white;
+    margin-right: 24px;
+}
+
+.contact img {
+    margin-right: 24px;
+}
+
+footer .links > p , .copyright > p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #7E8DA4;
+}
+
+footer .links > p {
+    margin-right: 32px;
+}
+
+
+
+/* responsiveness */
+@media (max-width:800px) {
+  .hideOnMobile {
+    display: none;
+  }
+
+  header nav .menu {
+    display: block;
+}
+
+
+}
+
+@media (max-width:500px) {
+    header div h1 {
+        font-size: 24px;
+        margin-bottom: 16px;
+        text-align: center;
+        padding: 0 16px;
+    }
+
+    header div p {
+        font-size: 12px;
+        line-height: 19.5px;
+        margin-bottom: 42px;
+        text-align: center;
+        padding: 0 16px;
+    }
+    
+    header div button {
+        padding: 12px 42px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+
+    main > #benefits-container {
+        margin-top: 40px;
+    }
+
+    .benefits {
+        row-gap: 24px;
+        padding: 40px 20px;
+    }
+    
+    .benefits h2 {
+        font-family: inter;
+        color: #c9c6c6;
+        font-size: 14px;
+        font-weight: 400;
+        grid-column:  span 12;
+        line-height: 22.6px;
+    }
+
+    .benefits > div {
+        grid-column: span 12;
+        padding: 16px 22px;
+        border-radius: 3px;
+    }
+
+    .benefits > div > img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .benefits > div > h3 {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .benefits > div > p {
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    #features-container {
+        margin: 52px auto;
+    }
+
+    #features-container > div {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #features-container > div > div > img {
+        width: 174px;
+        height: 362px;
+    }
+    
+    #features-container h2 {
+        font-size: 16px;
+        line-height: 20.4px;
+        margin-bottom: 16px;
+        color: #ffffff;
+    }
+    
+    #features-container > div > div > div > p {
+        font-size: 12px;
+        color: #c9c6c6;
+    }
+
+    .dropdown {
+        margin-bottom: 10px;
+    }
+
+    .dropdown img {
+        width: 15.24px;
+        height: 15.24px;
+    }
+
+    .features-card.one {
+        padding: 36px 36px;
+        margin-left: 16px;
+        margin-right: 16px;
+        border-radius: 4px;
+        margin-top: -92px;
+        border-top: 24px solid #000211;
+    }
+    
+    .features-card.two {
+        padding: 36px 36px;
+        border-radius: 4px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: -92px;
+        border-top: 24px solid #000211;
+    }
+    
+    .features-card.two h4 {
+        font-size: 16px;
+        line-height: 20.4px;
+        color: #ffffff;
+    }
+    
+    .features-card.two p {
+        font-size: 10px;
+        line-height: 147%;
+        color: #c9c6c6;
+        margin-top: 6px;
+    }
+
+    .phone {
+        order: -1;
+    }
+    
+    .f2 {
+        margin-top: 16px;
+    }
+
+    .txt-btn {
+        margin-top: 16px;
+    }
+    
+    .txt-btn > a {
+        font-size: 10px;
+        color: #1388F8;
+        text-decoration: none;
+    }
+
+    .txt-btn > img {
+        width: 15.24px;
+        height: 15.24px;
+    }
+    
+    #features-container > div:nth-child(1) {
+        margin-bottom: 64px;
+    }
+
+    #setup-container {
+        margin: 52px auto;
+    }
+    
+    #setup-container h2 {
+        font-size: 20px;
+        margin-bottom: 40px;
+        padding: 0px 16px;
+    }
+    
+    .card {
+        padding-left: 16px;
+        padding-top: 60px;
+        padding-right: 32px;
+        padding-bottom: 60px;
+        border-radius: 3px;
+        margin-bottom: 24px;
+    }
+    
+    .setup-1 {
+        flex-direction: column;
+    }
+    
+    #setup-container h4 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    .card > h5 {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 16px;
+    }
+    
+    .card > p {
+        font-size: 12px;
+        line-height: 19.2px;
+    }
+    
+    .card.one span {
+        color: #60A5FA;
+    }
+    
+    .setup-2 {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    
+    .setups {
+        padding: 0 51px;
+    }
+
+    #setup-container button {
+        padding: 12px 42px;
+        font-size: 12px;
+        border-radius: 2px;
+    }
+    
+    #setup-container .button {
+        display: flex;
+        justify-content: center;
+        margin-top: 44px;
+    }
+
+    footer #footer-container {
+        padding: 32px 0;
+    }
+    
+    footer .logo-l {
+        grid-column: span 12;
+    }
+    
+    footer .quick-links {
+        grid-column: span 12;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        margin-top: 32px;
+    }
+    
+    .quick-links > div:nth-child(1) {
+        grid-column: 3 / span 4;
+    }
+    
+    .quick-links > div:nth-child(2) {
+        grid-column: 8 / span 4;
+    }
+    
+    .quick-links > div:nth-child(3) {
+        grid-row: 2;
+        grid-column: 3 / span 4;
+        margin-top: -88px;
+    }
+    
+    .hr {
+        padding: 0 16px;
+        margin-top: 40px;
+    }
+    
+    
+    footer .links {
+        padding: 0 16px;
+    }
+    
+    footer h5 {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .quick-links > div > p {
+        font-size: 14px;
+    }
+    
+    .contact h6 {
+        font-size: 12px;
+    }
+    
+    .contact img {
+        margin-right: 16px;
+        width: 24px;
+        height: 24px;
+    }
+
+    footer .links {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        column-gap: 64px;
+        row-gap: 24px;
+    }
+
+    footer .links > .one {
+        grid-column: span 2;
+        margin-right: 0;
+    }
+    
+    footer .links > p , .copyright > p {
+        font-size: 14px;
+    }
+    
+}
