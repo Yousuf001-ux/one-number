@@ -470,15 +470,19 @@ footer .links > p {
 }
 
 @media (max-width:500px) {
+    header {
+        height: 45%;
+    }
+    
     header div h1 {
-        font-size: 24px;
+        font-size: 32px;
         margin-bottom: 16px;
         text-align: center;
         padding: 0 16px;
     }
 
     header div p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 19.5px;
         margin-bottom: 42px;
         text-align: center;
@@ -486,27 +490,27 @@ footer .links > p {
     }
     
     header div button {
-        padding: 12px 42px;
+        padding: 20px 52px;
         border-radius: 3px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     main > #benefits-container {
-        margin-top: 40px;
+        margin-top: 24px;
     }
 
     .benefits {
         row-gap: 24px;
-        padding: 40px 20px;
+        padding: 40px 50px;
     }
     
     .benefits h2 {
         font-family: inter;
         color: #c9c6c6;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 400;
         grid-column:  span 12;
-        line-height: 22.6px;
+        line-height: 28px;
     }
 
     .benefits > div {
@@ -521,14 +525,14 @@ footer .links > p {
     }
 
     .benefits > div > h3 {
-        font-size: 14px;
+        font-size: 16px;
         text-align: center;
         margin-top: 12px;
         margin-bottom: 12px;
     }
 
     .benefits > div > p {
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 300;
     }
 
@@ -715,7 +719,7 @@ footer .links > p {
     .quick-links > div:nth-child(3) {
         grid-row: 2;
         grid-column: 3 / span 4;
-        margin-top: -88px;
+        margin-top: -40px;
     }
     
     .hr {
