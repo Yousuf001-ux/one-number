@@ -551,14 +551,14 @@ footer .links > p {
     }
     
     #features-container h2 {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 20.4px;
         margin-bottom: 16px;
         color: #ffffff;
     }
     
     #features-container > div > div > div > p {
-        font-size: 12px;
+        font-size: 13px;
         color: #c9c6c6;
     }
 
@@ -596,7 +596,7 @@ footer .links > p {
     }
     
     .features-card.two p {
-        font-size: 10px;
+        font-size: 13px;
         line-height: 147%;
         color: #c9c6c6;
         margin-top: 6px;
@@ -615,7 +615,7 @@ footer .links > p {
     }
     
     .txt-btn > a {
-        font-size: 10px;
+        font-size: 13px;
         color: #1388F8;
         text-decoration: none;
     }
@@ -658,14 +658,14 @@ footer .links > p {
     }
     
     .card > h5 {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 16px;
     }
     
     .card > p {
-        font-size: 12px;
-        line-height: 19.2px;
+        font-size: 13px;
+        line-height: 22px;
     }
     
     .card.one span {
@@ -682,8 +682,8 @@ footer .links > p {
     }
 
     #setup-container button {
-        padding: 12px 42px;
-        font-size: 12px;
+        padding: 20px 50px;
+        font-size: 13px;
         border-radius: 2px;
     }
     
@@ -729,20 +729,20 @@ footer .links > p {
     
     
     footer .links {
-        padding: 0 16px;
+        padding: 0 50px;
     }
     
     footer h5 {
-        font-size: 14px;
+        font-size: 13px;
         margin-bottom: 20px;
     }
     
     .quick-links > div > p {
-        font-size: 14px;
+        font-size: 13px;
     }
     
     .contact h6 {
-        font-size: 12px;
+        font-size: 13px;
     }
     
     .contact img {
@@ -762,9 +762,15 @@ footer .links > p {
         grid-column: span 2;
         margin-right: 0;
     }
+
+    footer .links > .two {
+        grid-column: span 2;
+        margin-right: 0;
+        justify-self: end;
+    }
     
     footer .links > p , .copyright > p {
-        font-size: 14px;
+        font-size: 13px;
     }
     
 }
